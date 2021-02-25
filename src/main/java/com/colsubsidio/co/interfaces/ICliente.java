@@ -11,5 +11,6 @@ public interface ICliente {
 	void eliminar(Integer id);
 	Cliente buscarPorId(Integer id);
 	List<Cliente> listarClientes();
+	
 
 }

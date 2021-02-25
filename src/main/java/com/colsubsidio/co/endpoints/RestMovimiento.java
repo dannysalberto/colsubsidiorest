@@ -4,7 +4,6 @@ import java.math.BigDecimal;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
-import org.apache.tomcat.util.bcel.classfile.Constant;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +12,6 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -23,7 +21,6 @@ import com.colsubsidio.co.config.ResponseGeneric;
 import com.colsubsidio.co.models.Cuenta;
 import com.colsubsidio.co.models.Movimiento;
 import com.colsubsidio.co.request.MovimientoRequest;
-import com.colsubsidio.co.response.MovimientoResponse;
 import com.colsubsidio.co.services.CuentaService;
 import com.colsubsidio.co.services.MovimientoService;
 
